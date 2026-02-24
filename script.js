@@ -4,7 +4,7 @@
     return;
   }
 
-  const minDurationMs = 1000;
+  const minDurationMs = 1500;
   const startedAt = performance.now();
   let isWindowLoaded = document.readyState === "complete";
 
