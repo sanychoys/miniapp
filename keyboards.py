@@ -1,4 +1,4 @@
-from turtledemo.penrose import start
+
 from aiogram.types import KeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, InlineKeyboardButton
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -89,4 +89,5 @@ buy_prem_with_promo = InlineKeyboardMarkup(
             InlineKeyboardButton(text="⬅️Назад", callback_data="back_prem")
         ]
     ]
+
 )
